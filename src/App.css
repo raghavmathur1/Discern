@@ -1,38 +1,182 @@
-.App {
-  text-align: center;
+@font-face {
+	font-family: ssv;
+	src: url('fonts/SourceSansVariable-Roman.ttf.woff2') format('woff2-variations');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	margin: 0;
+	overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav {
+	height: 80px;
+	background: #ffffff;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	font-family: Josefin Sans;
+	font-size: 18px;
+	font-weight: 570;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 4;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.links {
+	display: flex;
+	margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.links div {
+	margin: 0 13px;
+	color: #222;
+	cursor: pointer;
+	transition: color 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.links div:hover {
+	color: #f46767;
+}
+
+.background {
+	width: 100vw;
+	height: 78vh;
+	background: url('images/background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 80px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	overflow: visible;
+}
+
+.overlay {
+	background: #000;
+	opacity: 0.7;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.countries {
+	background: #fff;
+	width: 45vw;
+	height: 60px;
+	z-index: 2;
+	position: relative;
+	top: 40px;
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	font-family: Josefin Sans;
+	justify-content: space-around;
+	padding: 2px 20px 0 20px;
+	font-size: 15px;
+}
+
+.know {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.logo {
+	width: 200px;
+	height: 80px;
+	background: url('images/logo.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 20px;
+}
+
+.heading {
+	color: #fff;
+	font-size: 85px;
+	font-family: Josefin Sans;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.center {
+	height: 80%;
+	position: relative;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+}
+.circle {
+	width: 230px;
+	height: 230px;
+	position: absolute;
+	z-index: 2;
+	background: linear-gradient(90deg, rgba(242, 64, 64, 1) 0%, rgba(244, 103, 103, 1) 100%);
+    border-radius: 200px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.circle1 {
+	bottom: -35px;
+	right: -40px;
+}
+
+.circle2 {
+	bottom: 70px;
+	right: -90px;
+}
+
+.circle3 {
+	bottom: -30px;
+	right: 80px;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    width:70vw;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionHead{
+    font-family: Josefin Sans;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 70px;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(242, 64, 64, 1) 0%, rgba(244, 103, 103, 1) 100%);
+}
+
+.atext{
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.quote{
+    margin-top: 20px ;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;;
 }
