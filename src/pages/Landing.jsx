@@ -1,9 +1,10 @@
 import React, {Component, lazy, Suspense } from 'react';
+import Service from "../components/Service.jsx"
+import Explore from "../components/Explore.jsx"
 const Nav = lazy(() => import('../components/Nav.jsx'));
-const renderNav = () => <div></div>;
 const Main = lazy(() => import('../components/Main.jsx'));
 const About = lazy(() => import('../components/About.jsx'));
-
+const renderNav = () => <div></div>;
 
 class Landing extends Component {
     render() {
@@ -11,8 +12,14 @@ class Landing extends Component {
             <div>
                 <Suspense fallback={renderNav()}>
 				    <Nav />
-                    <Main />
+                    <div id="main"></div>
+                    <Main/>
+                    <div id="about"></div>
                     <About />
+                    <div id="service"></div>
+                    <Service />
+                    <div id="explore"></div>
+                    <Explore />
 			    </Suspense>
             </div>
         )
