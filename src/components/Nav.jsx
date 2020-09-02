@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 class Nav extends Component {
 	render() {
 		return (
@@ -20,7 +22,9 @@ class Nav extends Component {
 						<div>Explore</div>
 					</Link>
 					<div>Contact</div>
-					<span></span>
+					<div><FontAwesomeIcon icon={faEnvelope} className="icons" /></div>
+					<div><FontAwesomeIcon icon={faLinkedinIn} className="icons" /></div>
+					<div><FontAwesomeIcon icon={faWhatsapp} className="icons" /></div>
 				</div>
 			</div>
 		);
