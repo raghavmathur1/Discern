@@ -319,6 +319,9 @@ body {
 	border-radius: 5px;
 	overflow: hidden;
 	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .photo{
@@ -330,6 +333,15 @@ body {
 
 .ph:hover > .photo{
 	transform: scale(1.08);
+}
+
+.cname{
+	position: absolute;
+	z-index: 1;
+	color: #fff;
+	font-family: Josefin Sans;
+	font-weight: 700;
+	font-size: 35px;
 }
 
 /* Explore Section End */
