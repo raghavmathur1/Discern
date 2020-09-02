@@ -425,4 +425,34 @@ body {
 	.countries div{
 		font-size: 10px;
 	}
+
+	.circle{
+		height: 100px;
+		width: 100px;
+	}
+
+	.circle1{
+		left: 20px;
+		bottom: -40px;
+	}
+
+	.circle2{
+		right: 0;
+		left: 0;
+		bottom: -40px;
+		margin: 0 auto;
+	}
+	
+	.circle3{
+		right: 20px;
+		bottom: -40px;
+	}
+
+	.about{
+		margin-top: 100px;
+	}
+
+	.heading{
+		text-align: center;
+	}
 }
