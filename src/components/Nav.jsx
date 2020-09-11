@@ -13,7 +13,7 @@ class Nav extends Component {
 						<div>Home</div>
 					</Link>
 					<Link to="about" smooth={true} offset={-80}>
-						<div>About</div>
+						<div>About Us</div>
 					</Link>
 					<Link to="service" smooth={true} offset={-110}>
 						<div>Services</div>
@@ -21,7 +21,9 @@ class Nav extends Component {
 					<Link to="explore" smooth={true} offset={-110}>
 						<div>Explore</div>
 					</Link>
-					<div>Contact</div>
+					<Link to="contact" smooth={true} offset={-110}>
+						<div>Contact Us</div>
+					</Link>
 					<div><FontAwesomeIcon icon={faEnvelope} className="icons" /></div>
 					<div><FontAwesomeIcon icon={faLinkedinIn} className="icons" /></div>
 					<div><FontAwesomeIcon icon={faWhatsapp} className="icons" /></div>

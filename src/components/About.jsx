@@ -15,15 +15,10 @@ class About extends Component {
 						<div>- Malcolm X</div>
 					</div><br />
 					<div className="atext longtext">
-						While it is your aspirations, dreams and hard work that will see you soar
-						high on the skies of success, we at Discern and Learn will be the wind
-						beneath your wings. Our skilled and experienced team of college admission
-						counsellors provide you with a clear vision backed by definite plans and
-						steer your dreams in the right direction.
+					With multiple career options, the choice of several coveted universities from across the globe, and never ending requirements of these universities, career planning for after school can be an overwhelming experience.
+At Discern and Learn, we seek to provide a holistic and individualized career guidance and counseling experience to you. While it is your aspirations, dreams and hard work that will see you soar high on the skies of success, we at Discern and Learn will be the wind beneath your wings. Our skilled and experienced team of college admission counsellors provide you with a clear vision backed by definite plans and steer your dreams in the right direction.
 					</div>
 				</div>
-
-				<Members />
 			</div>
 		);
 	}

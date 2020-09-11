@@ -9,6 +9,10 @@ class Members extends Component {
 	render() {
 		return (
 			<div className="images">
+				<div className="sectionHead tea">
+					Our Team
+					<div className="line l2"></div>
+				</div>
 				<div className="li">
 					<div className="bar"></div>
 					<div className="members">
@@ -38,7 +42,7 @@ class Members extends Component {
 						<Member
 							mimg={shilpa}
 							name="Shilpa Goyal"
-							post="Creative Head and Director"
+							post="Creative Head and Director"  
 							text="Shilpa identified a career path suited to her own interests and aptitude and carved a successful career thereon. She graduated from the country’s leading fashion institute, NIFT and has been engaged in creative and designing pursuits since then. Given her creative bent of mind, Shilpa brings an innovative and ingenuous approach to the whole application process and student discussions while guiding design students in creating their portfolios."
 						/>
 						<Member

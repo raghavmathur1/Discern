@@ -13,10 +13,10 @@ class Main extends Component {
 					<div>India</div>
 					<div>Singapore</div>
 					<div>Australia</div>
-					<div>East Europe</div>
+					<div>Eurasia</div>
 				</div>
 				<div className="center">
-					<div className="heading">Clear vision of the<br /> green pastures</div>
+					<div className="heading">For those who aim high and reach for the sky!</div>
 				</div>
                 <div className="circle circle3"></div>
                 <div className="circle circle1"></div>

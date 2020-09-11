@@ -1,6 +1,8 @@
 import React, {Component, lazy, Suspense } from 'react';
 import Service from "../components/Service.jsx"
 import Explore from "../components/Explore.jsx"
+import Members from "../components/Members.jsx"
+import Contact from "../components/Contact.jsx"
 const Nav = lazy(() => import('../components/Nav.jsx'));
 const Main = lazy(() => import('../components/Main.jsx'));
 const About = lazy(() => import('../components/About.jsx'));
@@ -16,10 +18,14 @@ class Landing extends Component {
                     <Main/>
                     <div id="about"></div>
                     <About />
+                    <div id="Our Team"></div>
+                    <Members />
                     <div id="service"></div>
                     <Service />
                     <div id="explore"></div>
                     <Explore />
+                    <div id="contact"></div>
+                    <Contact />
 			    </Suspense>
             </div>
         )

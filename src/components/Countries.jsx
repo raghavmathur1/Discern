@@ -17,7 +17,7 @@ export default class Countries extends Component {
 				<Country img={ind} text="India"/>
 				<Country img={sing} text="Singapore"/>
 				<Country img={aus} text="Australia"/>
-				<Country img={ee} text="East Europe"/>
+				<Country img={ee} text="Eurasia"/>
 			</div>
 		);
 	}

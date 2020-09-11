@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Countries from "../components/Countries.jsx"
- class Explore extends Component {
+class Explore extends Component {
     render() {
         return (
             <div className="exp">
