@@ -44,9 +44,9 @@ body {
 }
 .background {
 	width: 100vw;
-	height: 78vh;
+	height: 80vh;
 	background: url('images/background2.jpg');
-	background-position: center;
+	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top: 80px;
@@ -59,7 +59,7 @@ body {
 
 .overlay {
 	background: #000;
-	opacity: 0.7;
+	opacity: 0.0;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -90,10 +90,10 @@ body {
 }
 
 .logo {
-	width: 120px;
+	width: 230px;
 	height: 80px;
 	background: url('images/logo.jpg');
-	background-size: contain;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	margin-left: 30px;
@@ -101,12 +101,13 @@ body {
 
 .heading {
 	color: #fff;
-	font-size: 85px;
+	font-size: 40px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	letter-spacing: 3px;
 	width: 70vw;
+	margin-top: 40vw;
 }
 
 .center {
@@ -117,6 +118,7 @@ body {
 	align-items: center;
 }
 .circle {
+	display: none;
 	width: 230px;
 	height: 230px;
 	position: absolute;
@@ -154,7 +156,7 @@ body {
 }
 .about{
     width:65vw;
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
 	align-items: center;
@@ -284,15 +286,18 @@ body {
 }
 
 .point{
-	height: 70px;
+	width: 380px;
+	height: 90px;
 	padding: 0 20px;
 	margin: 16px 0;
 	background: #fff;
 	border-radius: 10px;
-	line-height: 70px;
 	font-size: 17px;
 	text-align: center;
 	margin: 16px 20px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
 	box-shadow:  0px 0px 12px 0 rgba(185, 89, 89, 0.4);
 }
 
@@ -369,7 +374,7 @@ body {
 .info{
 	width: 50%;
 	margin: 0 auto;
-	font-size: 21px;
+	font-size: 26px;
 	letter-spacing: 1px;
 }
 
@@ -383,7 +388,7 @@ body {
 .phones{
 	margin-left: 37px;
 	margin-top: 10px;
-	font-size: 21px;
+	font-size: 26px;
 }
 
 .num{
@@ -391,7 +396,9 @@ body {
 	
 }
 
-
+.rot{
+	transform: rotate(90deg);
+}
 
 /* Contact end */
 

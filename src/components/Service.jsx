@@ -9,18 +9,18 @@ class Service extends Component {
 					<div className="line"></div>
 				</div>
 				<div className="points">
-					<div className="point">1. Career assessment, guidance and mentoring</div>
-					<div className="point">2. Profile building</div>
-					<div className="point">3. Optimal resume building</div>
-					<div className="point">4. Essay writing and editing</div>
-					<div className="point">5. Writing and editing Letters of Recommendation</div>
-					<div className="point">6. Interview preparation</div>
+					<div className="point">Career assessment, guidance and mentoring</div>
+					<div className="point">Profile building</div>
+					<div className="point">Optimal resume building</div>
+					<div className="point">Essay writing and editing</div>
+					<div className="point">Writing and editing Letters of Recommendation</div>
+					<div className="point">Interview preparation</div>
 					<div className="point">
-						7. Applying to the right undergraduate course and college
+						Applying to the right<br /> undergraduate course and college
 					</div>
-					<div className="point">8. Culture orientation</div>
-					<div className="point">9. Visa guidance</div>
-					<div className="point">10. Aptitude and psychometric test</div>
+					<div className="point">Culture orientation</div>
+					<div className="point">Visa guidance</div>
+					<div className="point">Aptitude and psychometric test</div>
 				</div>
 			</div>
 		);

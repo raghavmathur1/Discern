@@ -7,7 +7,7 @@ class About extends Component {
 			<div className="container">
 				<div className="about" >
 					<div className="sectionHead">
-						About
+						About Us
 						<div className="line"></div>
 					</div>
 					<div className="atext quote">

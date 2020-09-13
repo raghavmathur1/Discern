@@ -18,7 +18,7 @@ class Nav extends Component {
 					<Link to="service" smooth={true} offset={-110}>
 						<div>Services</div>
 					</Link>
-					<Link to="explore" smooth={true} offset={-110}>
+					<Link to="explore" smooth={true} offset={-80}>
 						<div>Explore</div>
 					</Link>
 					<Link to="contact" smooth={true} offset={-110}>

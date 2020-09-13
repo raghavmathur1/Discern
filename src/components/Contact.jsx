@@ -22,7 +22,11 @@ class Contact extends Component {
 						<span className="in">discernandlearn@gmail.com</span>
 					</div>
 					<div>
-						<FontAwesomeIcon icon={faPhone} className="in" />
+						<FontAwesomeIcon icon={faWhatsapp} className="in" />
+						<span className="in">discernandlearn@gmail.com</span>
+					</div>
+					<div>
+						<FontAwesomeIcon icon={faPhone} className="in rot" />
 						<span className="in">Monday - Saturday, 10 AM - 7 PM IST</span>
 					</div>
 					<div>
