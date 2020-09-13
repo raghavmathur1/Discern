@@ -90,8 +90,8 @@ body {
 }
 
 .logo {
-	width: 230px;
-	height: 80px;
+	width: 180px;
+	height: 60px;
 	background: url('images/logo.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -107,7 +107,7 @@ body {
 	text-align: center;
 	letter-spacing: 3px;
 	width: 70vw;
-	margin-top: 40vw;
+	margin-top: 76vh;
 }
 
 .center {

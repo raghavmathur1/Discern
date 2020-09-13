@@ -22,7 +22,7 @@ class Nav extends Component {
 						<div>Explore</div>
 					</Link>
 					<Link to="contact" smooth={true} offset={-110}>
-						<div>Contact Us</div>
+						<div>Contact</div>
 					</Link>
 					<div><FontAwesomeIcon icon={faEnvelope} className="icons" /></div>
 					<div><FontAwesomeIcon icon={faLinkedinIn} className="icons" /></div>
