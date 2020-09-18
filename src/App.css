@@ -105,7 +105,7 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
 	letter-spacing: 3px;
-	width: 100vw;
+	width: 10 0vw;
 	text-align: center;
 	position: absolute;
 	bottom: 20px;
@@ -406,6 +406,60 @@ body {
 
 /* Explore Section End */
 
+
+/* Country */
+
+.cback{
+	background: url('images/usback.jpg');
+	width: 100vw;
+	height: 50vh;
+	background-position: center;
+}
+
+.sp{
+	margin-top: 50px;
+}
+
+.ltext{
+	margin:20px 12vw 0 12vw;
+	text-align: justify;
+	font-size: 23px;
+
+}
+
+.ltext div{
+	margin: 20px 0;
+}
+
+.bol{
+	font-weight: bolder;
+}
+
+.cen{
+	text-align: center;
+}
+
+.ques{
+	padding-top: 15px;
+}
+
+li{
+	margin: 10px 0;
+}
+
+.ff{
+	margin: 40px 0;
+	border-radius: 10px;
+	padding:20px 20px 25px 20px;
+	box-shadow:  0px 0px 12px 0 rgba(185, 89, 89, 0.4);
+}
+
+.ff div{
+	font-size: 23px;
+	margin:5px 0 15px 0;
+}
+
+/* Country End */
 
 
 @media only screen and (max-width: 1200px) {

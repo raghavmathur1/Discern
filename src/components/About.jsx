@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Members from "../components/Members.jsx"
+// import Members from "../components/Members.jsx"
 
 class About extends Component {
 	render() {

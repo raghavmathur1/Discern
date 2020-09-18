@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
@@ -21,7 +21,7 @@ class Nav extends Component {
 					<Link to="explore" smooth={true} offset={-80}>
 						<div>Explore</div>
 					</Link>
-					<Link to="contact" smooth={true} offset={-110}>
+					<Link to="contact" smooth={true} offset={-80}>
 						<div>Contact</div>
 					</Link>
 					<div><FontAwesomeIcon icon={faEnvelope} className="icons" /></div>
