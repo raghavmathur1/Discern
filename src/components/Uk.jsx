@@ -1,10 +1,22 @@
 import React, { Component } from 'react';
-
+import ukback from '../images/united.jpg'
+import Nav from '../components/Nav.jsx'	
+var sty = {
+    backgroundImage: `url(${ukback})`,
+    backgroundPosition: `bottom`,
+    backgroundSize: `cover`
+}
 class Uk extends Component {
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	}
 	render() {
 		return (
 			<div>
-				<div className="cback"></div>
+				{/* <Nav /> */}
+				<div className="cback" style={sty}>
+				<div className="toback">Back</div>
+				</div>
 				<div className="sectionHead sp">
 					United Kingdom
 					<div className="line"></div>

@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
-
+import canback from '../images/canback.jpg'
+var sty = {
+    backgroundImage: `url(${canback})`,
+    backgroundPosition: `center`,
+    backgroundSize: `cover`
+}
 class Can extends Component {
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	}
 	render() {
 		return (
 			<div>
-				<div className="cback"></div>
+				<div className="cback" style={sty}>
+					<div className="toback">Back</div>
+				</div>
 				<div className="sectionHead sp">
 					Canada
 					<div className="line"></div>
@@ -77,36 +87,38 @@ class Can extends Component {
 						can apply for permanent residency later on.
 					</div>
 					<div className="bol ques">
-						To study in the UK, students need to apply through UCAS that allows them to
-						apply to five Universities/courses.
+						What is the Application Procedure for Canadian Universities?
 					</div>
 					<div>
-						<ul>
-							<li>
-								For applying to Oxford, Cambridge and most medicine, veterinary and
-								dentistry courses, the deadline for filling UCAS is 15th October of
-								the preceding year.
-							</li>
-							<li>
-								For all other colleges and courses, it is 15th January of the same
-								year.
-							</li>
-						</ul>
+						The <span className="bol">Fall intake </span>or semester in Canada begins in{' '}
+						<span className="bol">September</span>. University deadlines for the
+						September intake vary from institution to institution, though are generally
+						from <span className="bol"> mid December to the end of March</span>.
+						Colleges may have a rolling admission policy and will accept applications
+						while processing time still permits.
+						<br /> <br />
+						Students applying to a university or college in Ontario need to submit their
+						applications through a central application centre,{' '}
+						<span className="bol">
+							The Ontario Universities Application Centre (OUAC)
+						</span>
+						. Some Ontario colleges have applications that can be submitted directly to
+						the institute itself.
 					</div>
 					<div className="bol ques">
-						Which documents are required for applying to UK Universities?
+						Which documents are required for applying to Canadian Universities?
 					</div>
 					<div>
-						Students will need the following documents for applying to UK Universities:
+						Students will need the following documents for applying to Canadian
+						Universities:
 						<ul>
 							<li>High school transcripts and predicted grades</li>
-							<li>Personal information</li>
+							<li>Letters of Recommendation (LOR)</li>
+							<li>Standardized test score </li>
 							<li>Statements of Purpose (SOP)</li>
-							<li> Common Personal statement</li>
 						</ul>
-						Since the same UCAS application goes to all colleges along with a common
-						personal statement, students need to be very careful while choosing their
-						course.
+						Once the universities receive the application, they will contact the
+						students in case of any additional requirements.
 					</div>
 				</div>
 			</div>

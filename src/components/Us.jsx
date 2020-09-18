@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
-
+import usback from '../images/usback.jpg';
+var sty = {
+	backgroundImage: `url(${usback})`,
+	backgroundPosition: `center`,
+	backgroundSize: `cover`,
+};
 class Us extends Component {
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	}
 	render() {
 		return (
 			<div>
-				<div className="cback"></div>
+				<div className="cback" style={sty}>
+					<div className="toback">Back</div>
+				</div>
 				<div className="sectionHead sp">
 					United States
 					<div className="line"></div>
@@ -29,7 +39,7 @@ class Us extends Component {
 						find their footing at some of the biggest companies.
 					</div>
 					<div className="ff">
-                        <div className="bol cen">US Fun Fact</div>
+						<div className="bol cen">US Fun Fact</div>
 						True to its moniker, “The Land of Opportunities,” the US has the highest
 						number of entrepreneurs in the world!
 					</div>
