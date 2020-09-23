@@ -58,14 +58,8 @@ class Us extends Component {
 						small, which allows the professors to nurture a dedicated academic
 						relationship with their students. US universities are also equipped with the
 						best libraries, sports facilities and advanced technology and research
-						capabilities.
-					</div>
-					<div>
-						They use innovative teaching methods with a balance between theory and
-						practice. Since there is a strong emphasis on inculcating a problem-solving
-						attitude among students, students get to study and solve actual cases. This
-						provides them with a simulated environment of the real-world working
-						experience at an undergraduate level.
+						capabilities. Further, they use innovative teaching methods with a balance
+						between theory and practice.
 					</div>
 					<div>
 						The American education system offers immense flexibility to its students.
@@ -182,33 +176,35 @@ class Us extends Component {
 						What are the requirements for applying to US colleges?
 					</div>
 					<div>
-						Students will need the following documents for applying to the US
-						Universities:
 						<ul>
 							<li>
 								<span className="bol">The College Application Essay:&nbsp;</span>
 								As part of the application process, most colleges require students
-								to submit at least one writing sample, the college essay. Usually,
-								there is a word limit on all essays. The main essay on the Common
-								Application cannot exceed 650 words. Students will usually have
-								multiple essay prompts to choose from, all of which are very open
-								ended. This gives students a lot of room on how to portray
-								themselves as a candidate.
+								to submit at least one writing sample, the college essay. Students
+								will usually have multiple essay prompts to choose from, all of
+								which are very open ended. This gives students a lot of room on how
+								to portray themselves as a candidate.
 							</li>
 							<li>
 								<span className="bol">Additional essays: &nbsp;</span>
+								Individual colleges or universities that a student is applying to
+								usually require additional essays. So students may need to factor in
+								the time for writing more essays.
+							</li>
+							<li>
+								<span className="bol">Standardized test scores:&nbsp;</span>
 								Most schools require applicants to submit SAT, SAT subject test or
 								ACT scores. International students also need to clear an English
 								proficiency test, such as TOEFL, IELTS, PTE or Duolingo with minimum
 								score requirements as stipulated by individual schools.
 							</li>
 							<li>
-								<span className="bol">Standardized test scores:&nbsp;</span>
+								<span className="bol">Letters of Recommendation:&nbsp;</span>
 								Colleges often ask students to submit three letters of
 								recommendations (LORs) from their teachers and counselor.
 							</li>
 							<li>
-								<span className="bol">Letters of recommendation:&nbsp;</span>
+								<span className="bol">Activities Section:&nbsp;</span>
 								Information about extracurricular activities, work experience,
 								community service, awards and academic writing make this section
 								crucial to the application. US universities look for candidates who
@@ -218,12 +214,6 @@ class Us extends Component {
 								charitable initiatives undertaken, and work experience. For this
 								reason, building an impressive profile is of paramount importance to
 								secure admission in a good college.
-							</li>
-							<li>
-								<span className="bol">Activities Section:&nbsp;</span>
-								An example is the University of California system, which has its own
-								application. It is the only platform accepted by UC schools and
-								students can apply to multiple campuses with one application.
 							</li>
 							<li>
 								<span className="bol">
