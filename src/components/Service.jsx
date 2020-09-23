@@ -9,7 +9,7 @@ class Service extends Component {
 					<div className="line"></div>
 				</div>
 				<div className="points">
-					<div className="point">Career assessment, guidance and mentoring</div>
+					{/* <div className="point">Career assessment, guidance and mentoring</div>
 					<div className="point">Profile building</div>
 					<div className="point">Optimal resume building</div>
 					<div className="point">Essay writing and editing</div>
@@ -20,7 +20,46 @@ class Service extends Component {
 					</div>
 					<div className="point">Culture orientation</div>
 					<div className="point">Visa guidance</div>
-					<div className="point">Aptitude and psychometric test</div>
+					<div className="point">Aptitude and psychometric test</div> */}
+					<ol>
+						<li>
+							Providing individualized attention to each student with specialized
+							counseling and mentoring
+						</li>
+						<li>
+							Gauging the students' interests through scientific psychometric tests,
+							identifying the best suited career path and appropriate undergraduate
+							course and college per their interests and skills{' '}
+						</li>
+						<li>
+							Creating a personalized timeline to accommodate all application
+							requirements
+						</li>
+						<li>
+							Helping students build a robust profile by providing them opportunities
+							for community service, public speaking platforms and career-shaping
+							internships that they may add as a snapshot of their work experience
+						</li>
+						<li>
+							Conducting brainstorming sessions with students and editing their
+							college admission essays in such a way that it best protrays their
+							personality and makes them stand out
+						</li>
+						<li>
+							Carefully assessing and sharing tips for the content of letters of
+							recommendation (LORs) highlighting the students' achievements{' '}
+						</li>
+						<li>
+							Handholding the students through the long-drawn application process
+							including reviewing the application forms{' '}
+						</li>
+						<li>Preparing students for the rigour of the college interview process</li>
+						<li>Providing guidance with respect to the Visa process</li>
+						<li>
+							Ensuring that students have a smooth transition into their new lives by
+							arranging cultural orientation activities
+						</li>
+					</ol>
 				</div>
 			</div>
 		);

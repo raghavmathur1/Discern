@@ -293,6 +293,13 @@ a{
 	justify-content: center;
 }
 
+.points ol{
+	font-size: 25px;
+	margin: 10px 50px;
+	font-weight: ;
+	text-align: justify;
+}
+
 .point{
 	width: 380px;
 	height: 90px;
