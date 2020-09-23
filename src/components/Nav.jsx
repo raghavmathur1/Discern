@@ -24,9 +24,21 @@ class Nav extends Component {
 					<Link to="contact" smooth={true} offset={-80}>
 						<div>Contact</div>
 					</Link>
-					<div><FontAwesomeIcon icon={faEnvelope} className="icons" /></div>
-					<div><FontAwesomeIcon icon={faLinkedinIn} className="icons" /></div>
-					<div><FontAwesomeIcon icon={faWhatsapp} className="icons" /></div>
+					<a href="mailto:discernandlearn@gmail.com">
+						<div>
+							<FontAwesomeIcon icon={faEnvelope} className="icons" />
+						</div>
+					</a>
+					<a href="https://www.linkedin.com/in/discernandlearn">
+						<div>
+							<FontAwesomeIcon icon={faLinkedinIn} className="icons" />
+						</div>
+					</a>
+					<a href="https://wa.me/+919818013686">
+						<div>
+							<FontAwesomeIcon icon={faWhatsapp} className="icons" />
+						</div>
+					</a>
 				</div>
 			</div>
 		);

@@ -11,7 +11,7 @@ class Contact extends Component {
 					Contact
 					<div className="line"></div>
 				</div>
-
+				
 				<div className="info">
 					<div>
 						<FontAwesomeIcon icon={faEnvelope} className="in" />
@@ -19,11 +19,11 @@ class Contact extends Component {
 					</div>
 					<div>
 						<FontAwesomeIcon icon={faLinkedinIn} className="in" />
-						<span className="in">discernandlearn@gmail.com</span>
+						<span className="in">https://www.linkedin.com/in/discernandlearn</span>
 					</div>
 					<div>
 						<FontAwesomeIcon icon={faWhatsapp} className="in" />
-						<span className="in">discernandlearn@gmail.com</span>
+						<span className="in">+91 9818013686</span>
 					</div>
 					<div>
 						<FontAwesomeIcon icon={faPhone} className="in rot" />
@@ -48,7 +48,7 @@ class Contact extends Component {
 						</div>
 						<div className="phones">• Hyderabad: </div>
 						<div className="num">
-							&nbsp; 5 - 9 -30 - 1/4, Road No. 2, Basheeer Bagh Palace, Hyd -500063{' '}
+							&nbsp; 5 - 9 -30 - 1/4, Road No. 2, Basheeer Bagh Palace, <br /> &nbsp;&nbsp;Hyderabad -500063{' '}
 						</div>
 					</div>
 				</div>

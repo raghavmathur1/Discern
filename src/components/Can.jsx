@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import canback from '../images/canback.jpg'
 var sty = {
     backgroundImage: `url(${canback})`,
@@ -13,7 +14,9 @@ class Can extends Component {
 		return (
 			<div>
 				<div className="cback" style={sty}>
-					<div className="toback">Back</div>
+				<Link to="/">
+						<div className="toback">Back</div>
+					</Link>
 				</div>
 				<div className="sectionHead sp">
 					Canada
@@ -22,7 +25,7 @@ class Can extends Component {
 				<div className="ltext">
 					<div>
 						Canada provides an excellent quality of life to students who choose to study
-						there. The Great White North (No Game of Thrones pun intended ;) is blessed
+						there. The Great White North (No Game of Thrones pun intended ;) ) is blessed
 						with stunning natural beauty, cultural diversity, affordable tuition fees
 						and warm and welcoming people who make the country absolutely safe and
 						peaceful to live in. <br />
@@ -65,7 +68,7 @@ class Can extends Component {
 					</div>
 					<div className="bol ques">Can you work while you study in Canada?</div>
 					<div>
-						Canadian universities provide Co-operative or co-op programs where students
+						Canadian universities provide co-operative or co-op programs where students
 						get the chance to work in an industry related to their field. These programs
 						are very popular with the students as they are able to blend studying with
 						valuable work experience.

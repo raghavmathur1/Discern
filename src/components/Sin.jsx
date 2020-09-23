@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import eurback from '../images/eurasia.jpg'
-import Nav from '../components/Nav.jsx'	
+import { Link } from 'react-router-dom';
+import sing from '../images/singapore.jpg'
 var sty = {
-    backgroundImage: `url(${eurback})`,
+    backgroundImage: `url(${sing})`,
     backgroundPosition: `bottom`,
     backgroundSize: `cover`
 }
@@ -14,7 +14,9 @@ class Sin extends Component {
 		return (
 			<div>
 				<div className="cback" style={sty}>
-				<div className="toback">Back</div>
+				<Link to="/">
+						<div className="toback">Back</div>
+					</Link>
 				</div>
 				<div className="sectionHead sp">
 					Singapore
@@ -24,7 +26,7 @@ class Sin extends Component {
 					<div>
 						What do you call a country that is the greenest city in Asia, amongst the
 						cleanest, safest, least corrupt countries in the world and is also a world
-						leader in research and innovation? Although it sounds like a Utopia,
+						leader in research and innovation? Although it sounds like a utopia,
 						Singapore offers you all this and more!!
 						<br />
 						<br />

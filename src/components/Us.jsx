@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import usback from '../images/usback.jpg';
 var sty = {
 	backgroundImage: `url(${usback})`,
@@ -13,7 +14,9 @@ class Us extends Component {
 		return (
 			<div>
 				<div className="cback" style={sty}>
-					<div className="toback">Back</div>
+					<Link to="/">
+						<div className="toback">Back</div>
+					</Link>
 				</div>
 				<div className="sectionHead sp">
 					United States
@@ -74,7 +77,7 @@ class Us extends Component {
 						want!
 					</div>
 					<div className="bol ques">
-						What Are the different measures taken by the universities to help the
+						What are the different measures taken by the universities to help the
 						international students blend in with the others?
 					</div>
 					<div>

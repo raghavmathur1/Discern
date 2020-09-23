@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import ukback from '../images/united.jpg'
-import Nav from '../components/Nav.jsx'	
 var sty = {
     backgroundImage: `url(${ukback})`,
     backgroundPosition: `bottom`,
@@ -15,7 +15,9 @@ class Uk extends Component {
 			<div>
 				{/* <Nav /> */}
 				<div className="cback" style={sty}>
-				<div className="toback">Back</div>
+				<Link to="/">
+						<div className="toback">Back</div>
+					</Link>
 				</div>
 				<div className="sectionHead sp">
 					United Kingdom
@@ -67,8 +69,8 @@ class Uk extends Component {
 						it a top choice for international students.
 					</div>
 					<div>
-						<span className="bol">Note</span> International students
-						<span className="bol">enrolled in a full-time course</span> in the UK are
+						<span className="bol">Note:</span> International students
+						<span className="bol"> enrolled in a full-time course</span> in the UK are
 						eligible to receive free medical treatment by the National Health Service
 						(NHS) upon paying a nominal International Health Surcharge (IHS)
 					</div>
@@ -117,7 +119,6 @@ class Uk extends Component {
 							<li>High school transcripts and predicted grades</li>
 							<li>Personal information</li>
 							<li>Statements of Purpose (SOP)</li>
-							<li> Common Personal statement</li>
 						</ul>
 						Since the same UCAS application goes to all colleges along with a common
 						personal statement, students need to be very careful while choosing their

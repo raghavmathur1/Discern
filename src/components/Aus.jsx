@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import ausback from '../images/ausback.jpg'
 var sty = {
     backgroundImage: `url(${ausback})`,
@@ -13,7 +14,9 @@ class Aus extends Component {
 		return (
 			<div>
 				<div className="cback" style={sty}>
-					<div className="toback">Back</div>
+				<Link to="/">
+						<div className="toback">Back</div>
+					</Link>
 				</div>
 				<div className="sectionHead sp">
 					Australia
@@ -29,7 +32,7 @@ class Aus extends Component {
 						The Land Down Under boasts of an extremely friendly and diverse culture and
 						has an excellent as well as affordable education system. Its strong economy
 						leads to well paying jobs and consequently, a high standard of living. The
-						easy Visa and immigration policies are also favourable for possible
+						easy visa and immigration policies are also favourable for possible
 						immigrants. All these factors contribute to making Australia attractive to
 						study.
 					</div>

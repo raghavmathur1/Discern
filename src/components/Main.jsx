@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 class Main extends Component {
 	render() {
 		return (
@@ -7,13 +7,27 @@ class Main extends Component {
 				<div className="overlay"></div>
 				<div className="countries">
 					<div className="know">KNOW MORE:</div>
-					<div>USA</div>
-					<div>UK</div>
-					<div>Canada</div>
-					<div>India</div>
-					<div>Singapore</div>
-					<div>Australia</div>
-					<div>Eurasia</div>
+					<Link to="/us">
+						<div>USA</div>
+					</Link>
+					<Link to="/uk">
+						<div>UK</div>
+					</Link>
+					<Link to="/Canada">
+						<div>Canada</div>
+					</Link>
+					<Link to="/India">
+						<div>India</div>
+					</Link>
+					<Link to="/Singapore">
+						<div>Singapore</div>
+					</Link>
+					<Link to="/Australia">
+						<div>Australia</div>
+					</Link>
+					<Link to="/Eurasia">
+						<div>Eurasia</div>
+					</Link>
 				</div>
 
 				<div className="heading">For those who aim high and reach for the sky!</div>

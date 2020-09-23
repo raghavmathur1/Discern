@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import eurback from '../images/eurasia.jpg'
-import Nav from '../components/Nav.jsx'	
+import { Link } from 'react-router-dom';
 var sty = {
     backgroundImage: `url(${eurback})`,
     backgroundPosition: `bottom`,
@@ -15,7 +15,9 @@ class Eur extends Component {
 			<div>
                 {/* <Nav /> */}
 				<div className="cback" style={sty}>
-                <div className="toback">Back</div>
+                <Link to="/">
+						<div className="toback">Back</div>
+					</Link>
                 </div>
 				<div className="sectionHead sp">
 					Eurasia
@@ -111,9 +113,9 @@ class Eur extends Component {
 							</li>
                             <li>Proof of funds</li>
 						</ul>
-						The minimum subject score requirement varies from course to course. Apart
+						{/* The minimum subject score requirement varies from course to course. Apart
 						from academic scores, a few universities also take students’ extracurricular
-						activities and portfolio into consideration for admission.
+						activities and portfolio into consideration for admission. */}
 					</div>
 				</div>
 			</div>

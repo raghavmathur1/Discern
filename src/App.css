@@ -12,6 +12,11 @@ body {
 
 
 /* Main Section Start */
+a{
+	color: #000;
+	text-decoration: none;
+}
+
 .nav {
 	height: 80px;
 	background: #ffffff;
@@ -390,13 +395,13 @@ body {
 }
 
 .phones{
-	margin-left: 37px;
+	margin-left: 53px;
 	margin-top: 10px;
 	font-size: 26px;
 }
 
 .num{
-	margin-left: 37px;
+	margin-left: 53px;
 	
 }
 
@@ -413,7 +418,7 @@ body {
 
 .cback{
 	width: 100vw;
-	height: 50vh;
+	height: 85vh;
 	/* margin-top:80px; */
 }
 

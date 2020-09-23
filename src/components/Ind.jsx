@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import indback from '../images/indback.jpg';
-import Nav from '../components/Nav.jsx';
 var sty = {
 	backgroundImage: `url(${indback})`,
 	backgroundPosition: `center`,
@@ -14,7 +14,9 @@ class Ind extends Component {
 		return (
 			<div>
 				<div className="cback" style={sty}>
-					<div className="toback">Back</div>
+					<Link to="/">
+						<div className="toback">Back</div>
+					</Link>
 				</div>
 				<div className="sectionHead sp">
 					India
@@ -27,11 +29,11 @@ class Ind extends Component {
 						obsessed with the Bollywood film industry, sports and co-curricular
 						activities such as performing arts have not been given the kind of
 						importance that they deserve at school or college-level. Fortunately, there
-						is light at the end of the tunnel! The New Education Policy 2020 is being
-						heralded as a long overdue overhaul that the Indian Education system needs.
-						It places sports, co-curricular activities and vocational courses at par
-						with academics, and offers flexibility at least at school level. However, it
-						will be some time before the reforms are implemented completely.
+						is light at the end of the tunnel! The New Education Policy (NEP) 2020 is
+						being heralded as a long overdue overhaul that the Indian Education system
+						needs. It places sports, co-curricular activities and vocational courses at
+						par with academics, and offers flexibility to students. However, it will be
+						some time before the reforms are implemented completely.
 					</div>
 					<div className="ff">
 						<div className="bol cen">India Fun Fact</div>
@@ -52,6 +54,22 @@ class Ind extends Component {
 						west?
 					</div>
 					<div>
+						As mentioned earlier, while the Indian education system has not been as
+						flexible as its western counterpart, the NEP 2020 paves the way for
+						long-awaited reforms in the education sector. These include:
+						<ul>
+							<li>
+								Holding a high-quality common aptitude test as well as common
+								subject exams in lieu of entrance tests for university admission{' '}
+							</li>
+							<li>Opening up of the education sector for top global universities </li>
+							<li>Multiple exit options at undergraduate level</li>
+							<li>Transfer of credits through Academic Bank of Credits</li>
+							<li>
+								Setting up of the National Research Foundation to encourage a
+								culture of research at universities.
+							</li>
+						</ul>
 						In recent years, a few Liberal Arts universities such as Ashoka, Flame and
 						O.P. Jindal University have made a name for themselves as an alternative to
 						the universities in the West. These universities have a more exploratory
