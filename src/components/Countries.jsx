@@ -8,12 +8,14 @@ import ind from '../images/ind.jpg';
 import sing from '../images/sing.jpg';
 import can from '../images/can.jpg';
 import ee from '../images/ee.jpg';
-export default class Countries extends Component {
+class Countries extends Component {
+	linkLogic() {
+	}
 	render() {
 		return (
-			<div className="clist">
-				<Link to="/us">
-					<Country img={usa} text="USA" />
+			<div className="clist" onClick={this.linkLogic}>
+				<Link to="/us" num="1">
+					<Country img={usa} text="USA"/>
 				</Link>
 				<Link to="/uk">
 					<Country img={uk} text="UK" />
@@ -37,3 +39,4 @@ export default class Countries extends Component {
 		);
 	}
 }
+export default Countries;

@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 class Main extends Component {
+	// linkLogic() {
+	// 	this.state.num = 0;
+	// 	alert(this.state.num);
+	// }
 	render() {
 		return (
 			<div className="background">
 				<div className="overlay"></div>
-				<div className="countries">
+				<div className="countries" onClick={this.linkLogic}>
 					<div className="know">KNOW MORE:</div>
 					<Link to="/us">
 						<div>USA</div>

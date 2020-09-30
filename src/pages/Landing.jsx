@@ -9,6 +9,9 @@ const About = lazy(() => import('../components/About.jsx'));
 const renderNav = () => <div></div>;
 
 class Landing extends Component {
+    componentDidMount() {
+		window.scrollTo(0, 0);
+	}
     render() {
         return (
             <div>

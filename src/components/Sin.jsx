@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import sing from '../images/singapore.jpg'
 var sty = {
     backgroundImage: `url(${sing})`,
@@ -14,8 +15,8 @@ class Sin extends Component {
 		return (
 			<div>
 				<div className="cback" style={sty}>
-				<Link to="/">
-						<div className="toback">Back</div>
+					<Link to="/#con">
+						<div className="toback">Back </div>
 					</Link>
 				</div>
 				<div className="sectionHead sp">
