@@ -4,7 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import sing from '../images/singapore.jpg'
 var sty = {
     backgroundImage: `url(${sing})`,
-    backgroundPosition: `bottom`,
+    backgroundPosition: `center`,
     backgroundSize: `cover`
 }
 class Sin extends Component {

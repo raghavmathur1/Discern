@@ -9,57 +9,47 @@ class Service extends Component {
 					<div className="line"></div>
 				</div>
 				<div className="points">
-					{/* <div className="point">Career assessment, guidance and mentoring</div>
-					<div className="point">Profile building</div>
-					<div className="point">Optimal resume building</div>
-					<div className="point">Essay writing and editing</div>
-					<div className="point">Writing and editing Letters of Recommendation</div>
-					<div className="point">Interview preparation</div>
 					<div className="point">
-						Applying to the right<br /> undergraduate course and college
+						Providing individualized attention to each student with
+						<span className="bol">&nbsp;specialized counseling&nbsp;</span>and
+						<span className="bol">&nbsp;mentoring&nbsp;</span>
 					</div>
-					<div className="point">Culture orientation</div>
-					<div className="point">Visa guidance</div>
-					<div className="point">Aptitude and psychometric test</div> */}
-					<ol>
-						<li className="point">
-							Providing individualized attention to each student with specialized
-							counseling and mentoring
-						</li>
-						<li className="point">
-							Gauging the students' interests through scientific psychometric tests,
-							identifying the best suited career path and appropriate undergraduate
-							course and college per their interests and skills{' '}
-						</li>
-						<li className="point">
-							Creating a personalized timeline to accommodate all application
-							requirements
-						</li>
-						<li className="point">
-							Helping students build a robust profile by providing them opportunities
-							for community service, public speaking platforms and career-shaping
-							internships that they may add as a snapshot of their work experience
-						</li>
-						<li className="point">
-							Conducting brainstorming sessions with students and editing their
-							college admission essays in such a way that it best protrays their
-							personality and makes them stand out
-						</li>
-						<li className="point">
-							Carefully assessing and sharing tips for the content of letters of
-							recommendation (LORs) highlighting the students' achievements{' '}
-						</li>
-						<li className="point">
-							Handholding the students through the long-drawn application process
-							including reviewing the application forms{' '}
-						</li>
-						<li className="point">Preparing students for the rigour of the college interview process</li>
-						<li className="point">Providing guidance with respect to the Visa process</li>
-						<li className="point">
-							Ensuring that students have a smooth transition into their new lives by
-							arranging cultural orientation activities
-						</li>
-					</ol>
+					<div className="point">
+						Gauging the students' interests through{' '}
+						scientific <span className="bol">psychometric tests, </span>
+						identifying the <span className="bol">best suited career path</span> and <span className="bol">appropriate undergraduate course
+						and college </span>per their interests and skills
+					</div>
+					<div className="point">
+						Creating a personalized <span className="bol">timeline</span> to
+						accommodate all application requirements
+					</div>
+					<div className="point">
+						Helping students build a <span className="bol">robust profile</span> by providing them opportunities for
+						community service, public speaking platforms and career-shaping internships
+						that they may add as a snapshot of their work experience
+					</div>
+					<div className="point">
+						Conducting <span className="bol">brainstorming sessions</span> with students and <span className="bol">editing their college
+						admission essays</span> in such a way that it best protrays their personality and
+						makes them stand out
+					</div>
+					<div className="point">
+						Carefully assessing and sharing tips for the content of <span className="bol">letters of
+						recommendation (LORs)</span> highlighting the students' achievements{' '}
+					</div>
+					<div className="point">
+						Handholding the students through the long-drawn application process
+						including reviewing the application forms{' '}
+					</div>
+					<div className="point">
+						Preparing students for the rigour of the <span className="bol">college interview process</span>
+					</div>
+					<div className="point">Providing <span className="bol">guidance</span> with respect to the <span className="bol">Visa</span> process</div>
+					<div className="point">
+						Ensuring that students have a smooth transition into their new lives by
+						arranging <span className="bol">cultural orientation activities</span>
+					</div>
 				</div>
 			</div>
 		);
