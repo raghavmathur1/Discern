@@ -26,7 +26,7 @@ class Contact extends Component {
 						</a>
 					</div>
 					<div>
-						<a href="https://www.linkedin.com/in/discernandlearn">
+						<a href="https://wa.me/+919818013686">
 							<FontAwesomeIcon icon={faWhatsapp} className="in" />
 							<span className="in">+91 9818013686</span>
 						</a>
