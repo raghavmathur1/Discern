@@ -517,8 +517,10 @@ li{
 		width: 90vw;
 		font-size: 16px;
 		line-height: normal;
-		display: flex;
-		align-items: center;
+	}
+
+	.info{
+		width: 80%;
 	}
 }
 
@@ -540,6 +542,7 @@ li{
 	}
 	
 	.countries div{
+		font-size: 20px;
 		margin: 0 3px;
 	}
 	.nav{
@@ -552,18 +555,42 @@ li{
 	}
 
 	.heading{
-		font-size: 60px;
+		font-size: 20px;
+	}
+
+	.know{
+		display: none;
 	}
 
 	.point{
 		font-size: 13px;
-		padding: 0 20px;
+	}
+	.info{
+		font-size: 18px;
+	}
+	
+	.phones{
+		font-size: 18px;
 	}
 }
 
 @media only screen and (max-width: 500px) {
 	.countries div{
-		font-size: 10px;
+		font-size: 14px;
+	}
+
+	.nav{
+		justify-content: center;
+	}
+
+	.links div{
+		display: none;
+	}
+
+	.logo{
+		margin-left: 20px;
+		height: 50px;
+		width: 140px;
 	}
 
 	.circle{
@@ -595,4 +622,10 @@ li{
 	.heading{
 		text-align: center;
 	}
+	.info{
+		width: 100%;
+		font-size: 16px;
+		letter-spacing: 0;
+	}
+	
 }

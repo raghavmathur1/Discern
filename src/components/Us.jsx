@@ -7,6 +7,10 @@ var sty = {
 	backgroundSize: `cover`,
 };
 class Us extends Component {
+	constructor(props) {
+		super(props);
+		console.log(this.props.state)
+	}
 	componentDidMount() {
 		window.scrollTo(0, 0);
 	}
@@ -15,7 +19,7 @@ class Us extends Component {
 			<div>
 				<div className="cback" style={sty}>
 					<Link to="/">
-						<div className="toback">Back</div>
+						<div className="toback">Back </div>
 					</Link>
 				</div>
 				<div className="sectionHead sp">

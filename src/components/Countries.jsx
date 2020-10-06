@@ -9,13 +9,16 @@ import sing from '../images/sing.jpg';
 import can from '../images/can.jpg';
 import ee from '../images/ee.jpg';
 class Countries extends Component {
-	linkLogic() {
-	}
+	linkLogic() {}
 	render() {
 		return (
 			<div className="clist" onClick={this.linkLogic}>
-				<Link to="/us" num="1">
-					<Country img={usa} text="USA"/>
+				<Link
+					to={{
+						pathname: '/us',
+						state: 1
+					}}>
+					<Country img={usa} text="USA" />
 				</Link>
 				<Link to="/uk">
 					<Country img={uk} text="UK" />
