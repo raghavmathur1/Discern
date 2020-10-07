@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import canback from '../images/canback.jpg'
+import canback from '../images/canback.jpg';
 var sty = {
-    backgroundImage: `url(${canback})`,
-    backgroundPosition: `center`,
-    backgroundSize: `cover`
-}
+	backgroundImage: `url(${canback})`,
+	backgroundPosition: `center`,
+	backgroundSize: `cover`,
+};
 class Can extends Component {
 	componentDidMount() {
 		window.scrollTo(0, 0);
@@ -14,8 +14,8 @@ class Can extends Component {
 		return (
 			<div>
 				<div className="cback" style={sty}>
-				<Link to="/">
-						<div className="toback">Back</div>
+					<Link to="/">
+						<div className="toback">Back to home</div>
 					</Link>
 				</div>
 				<div className="sectionHead sp">
@@ -25,9 +25,9 @@ class Can extends Component {
 				<div className="ltext">
 					<div>
 						Canada provides an excellent quality of life to students who choose to study
-						there. The Great White North (No Game of Thrones pun intended ;) ) is blessed
-						with stunning natural beauty, cultural diversity, affordable tuition fees
-						and warm and welcoming people who make the country absolutely safe and
+						there. The Great White North (No Game of Thrones pun intended ;) ) is
+						blessed with stunning natural beauty, cultural diversity, affordable tuition
+						fees and warm and welcoming people who make the country absolutely safe and
 						peaceful to live in. <br />
 						<br />
 						Taking these criteria into account, the QS World University Rankings lists

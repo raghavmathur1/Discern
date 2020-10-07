@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import eurback from '../images/eurasia.jpg'
+import eurback from '../images/eurasia.jpg';
 import { Link } from 'react-router-dom';
 var sty = {
-    backgroundImage: `url(${eurback})`,
-    backgroundPosition: `bottom`,
-    backgroundSize: `cover`
-}
+	backgroundImage: `url(${eurback})`,
+	backgroundPosition: `bottom`,
+	backgroundSize: `cover`,
+};
 class Eur extends Component {
 	componentDidMount() {
 		window.scrollTo(0, 0);
@@ -13,12 +13,11 @@ class Eur extends Component {
 	render() {
 		return (
 			<div>
-                {/* <Nav /> */}
 				<div className="cback" style={sty}>
-                <Link to="/">
-						<div className="toback">Back</div>
+					<Link to="/">
+						<div className="toback">Back to home</div>
 					</Link>
-                </div>
+				</div>
 				<div className="sectionHead sp">
 					Eurasia
 					<div className="line spa"></div>
@@ -79,11 +78,13 @@ class Eur extends Component {
 						work part time while studying to cover their living expenses.
 						<br />
 						<br />
-						Students can work upto <span className="bol">20 hours every week</span> during their semesters and for <span className="bol">40
-						hours during holidays or scheduled breaks</span>. Infact, per the latest
-						regulations in Russia, international students only need a written
-						confirmation from their university to show that they are enrolled in a
-						course to take up a part-time job. It doesn't get easier than that!
+						Students can work upto <span className="bol">20 hours every week</span>{' '}
+						during their semesters and for{' '}
+						<span className="bol">40 hours during holidays or scheduled breaks</span>.
+						Infact, per the latest regulations in Russia, international students only
+						need a written confirmation from their university to show that they are
+						enrolled in a course to take up a part-time job. It doesn't get easier than
+						that!
 					</div>
 					<div className="bol ques">
 						What are the immigration opportunities in the ECA region?
@@ -111,7 +112,7 @@ class Eur extends Component {
 								TOEFL/IELTS/PTE Exam Score Xerox (only if the medium of education is
 								NOT English)
 							</li>
-                            <li>Proof of funds</li>
+							<li>Proof of funds</li>
 						</ul>
 						{/* The minimum subject score requirement varies from course to course. Apart
 						from academic scores, a few universities also take students’ extracurricular

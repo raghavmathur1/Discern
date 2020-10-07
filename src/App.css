@@ -17,6 +17,10 @@ a{
 	text-decoration: none;
 }
 
+.totop{
+	display:none !important;
+}
+
 .nav {
 	height: 80px;
 	background: #ffffff;
@@ -525,6 +529,26 @@ li{
 }
 
 @media only screen and (max-width: 650px) {
+	.totop{
+		display: flex !important;
+		position: fixed;
+		width: 20px;
+		height: 20px;
+		bottom: 10px;
+		right: 10px;
+		padding: 13px;
+		font-size: 23px;
+		align-items: center;
+		justify-content: center;
+		
+	}
+	.background{
+		height: 70vh;
+	}
+
+	.cback{
+		height: 70vh;
+	}
 	.countries{
 		width: 100vw;
 		top: 0;
@@ -563,7 +587,7 @@ li{
 	}
 
 	.point{
-		font-size: 13px;
+		font-size: 16px;
 	}
 	.info{
 		font-size: 18px;

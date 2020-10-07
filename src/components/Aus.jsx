@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import ausback from '../images/ausback.jpg'
+import ausback from '../images/ausback.jpg';
 var sty = {
-    backgroundImage: `url(${ausback})`,
-    backgroundPosition: `center`,
-    backgroundSize: `cover`
-}
+	backgroundImage: `url(${ausback})`,
+	backgroundPosition: `center`,
+	backgroundSize: `cover`,
+};
 class Aus extends Component {
 	componentDidMount() {
 		window.scrollTo(0, 0);
@@ -14,8 +14,8 @@ class Aus extends Component {
 		return (
 			<div>
 				<div className="cback" style={sty}>
-				<Link to="/">
-						<div className="toback">Back</div>
+					<Link to="/">
+						<div className="toback">Back to home</div>
 					</Link>
 				</div>
 				<div className="sectionHead sp">

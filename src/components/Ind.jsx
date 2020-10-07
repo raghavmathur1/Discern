@@ -15,7 +15,7 @@ class Ind extends Component {
 			<div>
 				<div className="cback" style={sty}>
 					<Link to="/">
-						<div className="toback">Back</div>
+						<div className="toback">Back to home</div>
 					</Link>
 				</div>
 				<div className="sectionHead sp">
