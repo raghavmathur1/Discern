@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import ukback from '../images/united.jpg';
 var sty = {
 	backgroundImage: `url(${ukback})`,
-	backgroundPosition: `bottom`,
+	backgroundPosition: `50% 100%`,
 	backgroundSize: `cover`,
 };
 class Uk extends Component {
