@@ -115,7 +115,7 @@ a{
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
 	letter-spacing: 3px;
-	width: 10 0vw;
+	width: 100vw;
 	text-align: center;
 	position: absolute;
 	bottom: 20px;
@@ -579,6 +579,7 @@ li{
 	}
 
 	.heading{
+		width: 80vw;
 		font-size: 20px;
 	}
 
@@ -645,6 +646,7 @@ li{
 
 	.heading{
 		text-align: center;
+		
 	}
 	.info{
 		width: 100%;
