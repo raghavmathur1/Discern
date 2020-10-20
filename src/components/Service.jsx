@@ -31,7 +31,7 @@ class Service extends Component {
 					</div>
 					<div className="point">
 						Conducting <span className="bol">brainstorming sessions</span> with students and <span className="bol">editing their college
-						admission essays</span> in such a way that it best protrays their personality and
+						admission essays</span> in such a way that it best portrays their personality and
 						makes them stand out
 					</div>
 					<div className="point">
