@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone, faBuilding } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 class Contact extends Component {
 	render() {
@@ -20,9 +20,21 @@ class Contact extends Component {
 						</a>
 					</div>
 					<div>
+						<a href="https://www.facebook.com/discernandlearn/">
+							<FontAwesomeIcon icon={faFacebook} className="in" />
+							<span className="in">facebook.com/discernandlearn</span>
+						</a>
+					</div>
+					<div>
+						<a href="https://www.instagram.com/discernandlearn/">
+							<FontAwesomeIcon icon={faInstagram} className="in" />
+							<span className="in">instagram.com/discernandlearn</span>
+						</a>
+					</div>
+					<div>
 						<a href="https://www.linkedin.com/in/discernandlearn">
 							<FontAwesomeIcon icon={faLinkedinIn} className="in" />
-							<span className="in">https://www.linkedin.com/in/discernandlearn</span>
+							<span className="in">linkedin.com/in/discernandlearn</span>
 						</a>
 					</div>
 					<div>

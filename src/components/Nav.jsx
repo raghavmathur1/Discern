@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp, faBars, faCaretUp, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import $ from 'jquery';
 class Nav extends Component {
 	componentDidMount() {
@@ -57,6 +57,16 @@ class Nav extends Component {
 								<FontAwesomeIcon icon={faEnvelope} className="icons" />
 							</div>
 						</a>
+						<a href="https://www.facebook.com/discernandlearn/">
+							<div>
+								<FontAwesomeIcon icon={faFacebook} className="icons" />
+							</div>
+						</a>
+						<a href="https://www.instagram.com/discernandlearn/">
+							<div>
+								<FontAwesomeIcon icon={faInstagram} className="icons" />
+							</div>
+						</a>
 						<a href="https://www.linkedin.com/in/discernandlearn">
 							<div>
 								<FontAwesomeIcon icon={faLinkedinIn} className="icons" />
@@ -97,6 +107,16 @@ class Nav extends Component {
 						<a href="mailto:discernandlearn@gmail.com">
 							<div>
 								<FontAwesomeIcon icon={faEnvelope} className="icons" />
+							</div>
+						</a>
+						<a href="https://www.facebook.com/discernandlearn/">
+							<div>
+								<FontAwesomeIcon icon={faFacebook} className="icons" />
+							</div>
+						</a>
+						<a href="https://www.instagram.com/discernandlearn/">
+							<div>
+								<FontAwesomeIcon icon={faInstagram} className="icons" />
 							</div>
 						</a>
 						<a href="https://www.linkedin.com/in/discernandlearn">
