@@ -30,7 +30,7 @@ class Landing extends Component {
 					<div id="contact"></div>
 					<Contact />
 					<div className="designed">
-						<a href="http://raghavmathur.design/">
+						<a href="http://raghavmathur.me/">
 							Developed by <span>Raghav Mathur</span>
 						</a>
 					</div>
